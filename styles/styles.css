@@ -60,6 +60,11 @@ ol{
 li:hover{
 	color: Blue;
 }
+a:hover{
+	color: #44c1eb;
+}
+a:visited{
+	color: #50bf34; 
 }
 div p.first{
 	font-weight:bold;
