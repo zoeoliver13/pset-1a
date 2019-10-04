@@ -18,13 +18,52 @@ header a {
 margin:0 px;
 }
 .section-header {
-    font-size: 36px;
+    font-size: 28px;
     font-weight: bold;
 }
 .section-content {
     font-size: 20px;
       text-decoration: none;
   }
+		table, th, td {
+  border: 4px solid  #ebe46a;
+}
+p{
+	font-size: 25px
+}
+table{
+	width: 50%;
+	margin: 0px auto;
+}
+	tr{
+		border: 4px dashed #ebe46a;
+		text align: center;
+		font-color: black;
+	}
+	thead{
+		background-color: #fffcc2;
+			height: 25px;
+			border: 4px dashed #ebe46a;
+			font-size: 30px;
+	}
+	tbody{
+		border: 4px solid #ebe46a;
+		font-size: 24px;
+		text-align: center;
+	}
+#section1 {
+	font-size: 25px;
+}
+ol{
+	font-size: 27px;
+}
+li:hover{
+	color: Blue;
+}
+}
+div p.first{
+	font-weight:bold;
+}
 body{
 
 }
@@ -34,4 +73,5 @@ footer{
   overflow: hidden;
   padding: 14px;
   text-decoration: none;
+	font-size: 18px;
 }
