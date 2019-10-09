@@ -3,6 +3,7 @@
 	font-family: Georgia,Times,Times New Roman,serif;
 }
 
+
 /*Tyle Selectors*/
 header{
   background-color: #d59ee8;
@@ -78,10 +79,12 @@ footer{
 	font-size: 14px;
 }
 
+
 /*Psuedo-class/element Selectors */
 a:visited{
 	color: #442554;
 }
+
 
 /*ID Selectors*/
 #section1 {
@@ -148,6 +151,8 @@ a:visited{
 	 left: 230px;
 	 border: 8px solid #fffcc2;
 }
+
+
 /*Attribute Selectors*/
 a[title]{
 	color: blue;
@@ -155,6 +160,7 @@ a[title]{
 a[href="https://www.billboard.com/articles/news/266420/artists-of-the-decade"]{
 	color: #d59ee8;
 }
+
 
 /*Class Selectors*/
 .section-header {
@@ -170,6 +176,7 @@ a[href="https://www.billboard.com/articles/news/266420/artists-of-the-decade"]{
 		width: 25%;
 		height: 25%;
 	}
+
 
 	/*Combinators*/
 	h2+img{
